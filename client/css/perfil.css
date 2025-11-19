@@ -1,0 +1,61 @@
+/* Estilos para Perfil */
+.perfil-container {
+    padding: 20px;
+}
+
+.perfil-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.perfil-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.perfil-info {
+    margin-bottom: 30px;
+}
+
+.perfil-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.perfil-info strong {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.plano-status {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.plano-status.gratuito {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.plano-status.ativo {
+    background-color: #28a745;
+    color: white;
+}
+
+.perfil-actions button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.perfil-actions .logout-btn {
+    background-color: #dc3545;
+}
+
+.perfil-actions .logout-btn:hover {
+    background-color: #c82333;
+}
